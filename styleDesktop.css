@@ -1,0 +1,24 @@
+/*
+Order Summary
+CSS styleDeskotp File
+By Ulysse Valdenaire
+13/08/2021
+*/
+
+html{
+    height:100%
+}
+
+body {
+    background: url("assets/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+#container, #music-icon {
+    width:500px;
+}
+.flex, #divButton, button{
+    width:400px;
+}
+

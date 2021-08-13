@@ -1,0 +1,94 @@
+/*
+Order Summary
+CSS Main File
+By Ulysse Valdenaire
+13/08/2021
+*/
+
+html {
+  font-family: Baskerville;
+
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+}
+
+p {
+  font-size: 16px;
+  color: grey;
+}
+
+#container {
+  width: 375px;
+  background: white;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+#music-icon {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 375px;
+  margin-bottom: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+#text {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f8f9fe;
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+#price {
+  line-height: 7px;
+  margin-bottom: 20px;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  background: #382ae1;
+  border: none;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 15px grey;
+}
+
+#divButton {
+  width: 300px;
+  margin: auto;
+}
+
+#cancel {
+  color: grey;
+  font-weight: bold;
+}
+
+h1,
+h3 {
+  color: hsl(223, 47%, 23%);
+}
+
+a, button{
+    cursor:pointer;
+}
