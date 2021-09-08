@@ -5,12 +5,6 @@ By Ulysse Valdenaire
 13/08/2021
 */
 
-@media screen and (max-width: 700px) {
-  #container {
-    width: 400px;
-  }
-}
-
 html {
   font-family: Baskerville;
 }
@@ -96,4 +90,22 @@ h3 {
 a,
 button {
   cursor: pointer;
+}
+
+@media screen and (max-width: 370px){
+  #container, #music-icon{
+    width:300px;
+  }
+}
+
+@media screen and (min-width:500px) and (max-width:700px){
+  #container, #music-icon{
+    width:500px;
+  }
+}
+
+@media screen and (min-width:700px){
+  #container, #music-icon{
+    width:750px;
+  }
 }
